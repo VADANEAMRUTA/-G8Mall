@@ -1,0 +1,49 @@
+.categories .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem
+  }
+  .categories .box{
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    outline: var(--outline);
+    outline-offset: -1rem;
+  }
+  .categories .box:hover{
+    outline-offset: 0;
+    outline: var(--outline-hover);
+  }
+  .categories .box img{
+    height: 15rem;
+    margin: 1rem 0;
+  }
+  .categories .box h3{
+    font-size:2rem;
+    line-height:1.8;
+    color: var(--black);
+  }
+  .categories .box p{
+    color: var(--light-color);
+    list-style: 1.8;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+  }
+  .btn2{
+    float: right; /* Moves the button to the right */
+    margin-right: 20px; /* Optional, for some spacing from the right */
+    padding: 10px 20px; /* Add padding for better button size */
+    background-color: #ac3624; /* Customize button color */
+    color: rgb(235, 232, 232); /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  
+  .btn2:hover {
+    background-color: #e64a19; /* Darken the button on hover */
+  }
+  
